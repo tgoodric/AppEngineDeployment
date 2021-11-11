@@ -152,7 +152,7 @@ public class CompareRequest {
 
         CompareRequest request = (CompareRequest) o;
 
-        if (requestId != request.requestId) return false;
+        //if (requestId != request.requestId) return false;
         if (merchantId != null ? !merchantId.equals(request.merchantId) : request.merchantId != null) return false;
         if (ssn != null ? !ssn.equals(request.ssn) : request.ssn != null) return false;
         if (dob != null ? !dob.equals(request.dob) : request.dob != null) return false;
